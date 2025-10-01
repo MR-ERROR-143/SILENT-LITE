@@ -21,7 +21,7 @@ def main():
         print(f'\x1b[1;92m[\x1b[1;97m=\x1b[1;92m] \x1b[1;92m64BIT DETECTED')
         print(f'\x1b[1;92m[\x1b[1;97m=\x1b[1;92m] \x1b[1;92mSTARTING SILENT TOOL')
         time.sleep(5)
-        os.system('chmod 777 ERROR64;./SILENT64')
+        os.system('chmod 777 SILENT64;./SILENT64')
     else:
         arc = "INVALID"
         exit("\x1b[1;92m[\x1b[1;97m=\x1b[1;92m] \x1b[1;91mUNKNOWN DEVICE TYPE")
